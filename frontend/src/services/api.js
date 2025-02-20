@@ -1,4 +1,4 @@
-const REMOVED = '4fbc52a64ead1186d01fb3fe4a876281'
+const REMOVED = import.meta.env.VITE_REMOVED
 const BASE_URL = 'https://api.themoviedb.org/3/'
 
 export const getPopularMovies = async () => {
